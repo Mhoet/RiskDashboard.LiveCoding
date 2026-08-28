@@ -1,0 +1,4 @@
+@RiskDashboard_LiveCoding_HostAddress = http://localhost:5000
+
+GET {{RiskDashboard_LiveCoding_HostAddress}}/api/risk-dashboard/summary?tenantId=11111111-1111-1111-1111-111111111111&pageNumber=1&pageSize=50
+Accept: application/json
